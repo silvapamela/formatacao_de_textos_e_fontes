@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-image: linear-gradient(to left, #b3cce2, #d9ccc1);
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: .5rem;
+    text-align: center;
+    background-color: #005eb0;
+    padding: 18px;
+    color: #D9CCC1; 
+}
+
+h2 {
+    font-size: 1.5rem;
+    background-color: #005eb0;
+    padding: 1px;
+    color: #D9CCC1;
+}
+
+p {
+    font-size: 1.0rem;
+    color: #024059;;
+}
+
+.motivacional {
+    font-family: 'Tilt Neon', cursive;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.autor {
+    font-style: italic;
+    color:  darkslategray;
+    text-align: right;
+}
+
+.data {
+    font-style: italic;
+    font-size: .8rem;
+    text-align: left;
+    color: darkslategray;
+}
+
+.strikethrough {
+    position: absolute;
+}
+ 
+.strikethrough:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 35%;
+    right: 0;
+    border-top: 1px solid;
+    border-color: darkslategray;
+
+    -webkit-transform:rotate(-4deg);
+    -moz-transform:rotate(-4deg);
+    -ms-transform:rotate(-4deg);
+    -o-transform:rotate(-4deg);
+    transform:rotate(-4deg);
+}
